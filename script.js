@@ -51,7 +51,7 @@ function rezultats() {
 
     } else {
         if (irTrijsturis(m1, m2, m3) == false) {
-            t = "Trijstūris neeksistē, jo jebkrur 2 malu garumu summai ir jābūt lielākai par trešo malu!";
+            t = "Trijstūris neeksistē, jo jebkuru 2 malu garumu summai ir jābūt lielākai par trešo malu!";
         } else {
             t = "Trijstūris ar malu garumiem" + m1 + "," + m2 + "un"+ m3 + "eksistē."
             if (m1 == m2 && m2 == m3) {
@@ -78,3 +78,4 @@ function izvadaTekstu() {
     raksti.innerHTML = teksts;
     sakne.appendChild(raksti);
 }
+
